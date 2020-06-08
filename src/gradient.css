@@ -1,0 +1,21 @@
+.gradient{
+
+}
+@keyframes change {
+    0%{
+        background: blue;
+    }
+    100% {
+        background: green;
+    }
+}
+.gradient .circle{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.gradient .circle.active{
+    animation: change 1s infinite alternate linear;
+}

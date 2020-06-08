@@ -1,0 +1,23 @@
+.page .tabs{
+
+}
+.page .tabsBar{
+    display: flex;
+}
+.page .tabsBar > li{
+    border: 1px solid black;
+    width: 50%;
+}
+.page .tabsBar >li.selected {
+    background: rgb(255, 222, 155);
+    color: white;
+}
+.page .tabContent{
+
+}
+.page .tabContent > li{
+    display: none;
+}
+.page .tabContent > li.active{
+    display: block;
+}
